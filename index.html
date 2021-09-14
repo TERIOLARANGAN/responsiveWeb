@@ -10,27 +10,38 @@ body{
 display: flex;
 flex-direction: row;
 font-size: 20px;
-background-image: url("https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png");
+<!--background-image: url("https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png");-->
 background-size: auto;
 }
 .square1{
 width: 100%;
 height: fit-content;
 border: 5px solid purple;
-background-color: cadetblue;
+background-color: yellow;
 color: brown;
 box-sizing: border-box;
 flex: 50%;
 }
+
 a[href] {
-color: pink;
+color: purple;
 }
+
 #p1 {
+background-color: red;
+color: blue;
+}
+#p2 {
+background-color: purple;
+}
+
+#p3 {
 text-align: right;
 fon-size: 50px;
-background-color: yellow;
-color: green;
+background-color: blue;
+color: pink;
 }
+
 @media (max-width: 800px) {
 body{
 flex-direction: column;
@@ -42,6 +53,7 @@ flex-direction: column;
 <div class="square1">
 <nav>
 <a href="https://trioresponsive.netlify.app/"> home</a>
+<a href="hubungi.html"> contact me</a>
 <a href="https://triokasuskoronadunia.netlify.app/"> portofolio web trio1</a>
 <a href="https://triolihatbendera.netlify.app/"> portofolio web trio2</a>
 <a href="https://trioarrayobjek.netlify.app/"> portofolio web trio3</a>
@@ -59,10 +71,25 @@ flex-direction: column;
 </div>
 </aside>
 <section>
-<P>Welcome to My First Web, this is the first page that I made, at the next pages you'll find many interest things here</p>
+<p id="p1">Welcome to My First Web, this is the first page that I made, at the next pages you'll find many interest things here</p>
+<video width="320" height="240" controls>
+<source src="Gita Rodja TV.mp4" type="video/mp4" />
+</video>
+</section>
+<section>
+<h3>About Me</h3>
+<p id="p2">Iam a person with visual impairment who like Web Programming. As the realization of my passion, I build this website. I know about:
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>Javascript E S 6</li>
+</ul>
+<br>For your information, this website built using Javascript Only!
+Finally, when you are interested in learning web programming, just contact me by clicking link contact me above.</p>
 </section>
 <footer>
-<p id="p1"><b>Trio</b> <i>AB</i></p>
+<p id="p3"><b>Trio</b> <i>AB</i></p>
 </footer>
 </div>
 </body>
